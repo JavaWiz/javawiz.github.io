@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -8,123 +9,197 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">MyLearning</a>
+</head>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">MyLearning</a>
 
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>My Learning Board</h1>
   </div>
-</nav>
-<div class="jumbotron text-center">
-  <h1>My Learning Board</h1> 
-</div>
-<div class="container">
-  <div id="accordion">
-    <div class="card">
-      <div class="card-header">
-        <a class="card-link" data-toggle="collapse" href="#javaVsPython">
-          Java vs Python
-        </a>
-      </div>
-      <div id="javaVsPython" class="collapse" data-parent="#accordion">
-        <div class="card-body">
-          <video width="600" height="400" controls>
-       		<source src="Java vs Python.mp4" type="video/mp4">
-       		Your browser does not support the video tag.
-      	  </video>
+
+  <div class="container">
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#javaVsPython">
+            Java vs Python
+          </a>
+        </div>
+        <div id="javaVsPython" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <video width="600" height="400" controls>
+              <source src="Java vs Python.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
-	</div>
-	<div class="card">
-		<div class="card-header">
-			<a class="collapsed card-link" data-toggle="collapse" href="#agile">Agile</a>
-		</div>
-		<div id="agile" class="collapse" data-parent="#accordion">
-		  <div class="card-body">
-			  <video width="600" height="400" controls>
-				   <source src="Explaining Scrum in less than 120 seconds.mp4" type="video/mp4">
-				 Your browser does not support the video tag.
-        </video>
-        <video width="600" height="400" controls>
-          <source src="Introduction to Scrum - 7 Minutes.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-       </video>
-		  </div>
-		</div>
-	  </div>
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#safeAgile">
-        SAFE Agile
-      </a>
-      </div>
-      <div id="safeAgile" class="collapse" data-parent="#accordion">
-        <div class="card-body">
-          <video width="600" height="400" controls>
-       	  	<source src="SAFe 4.0 in 5 minutes.mp4" type="video/mp4">
-       		Your browser does not support the video tag.
-      	  </video>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#agile">Agile</a>
+        </div>
+        <div id="agile" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <video width="600" height="400" controls>
+              <source src="Explaining Scrum in less than 120 seconds.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video width="600" height="400" controls>
+              <source src="Introduction to Scrum - 7 Minutes.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
-	</div>
-	<div class="card">
-		<div class="card-header">
-		  <a class="collapsed card-link" data-toggle="collapse" href="#SpotifyAgile">
-		  Spotify Agile
-		</a>
-		</div>
-		<div id="SpotifyAgile" class="collapse" data-parent="#accordion">
-		  <div class="card-body">
-			  <video width="600" height="400" controls>
-				   <source src="spotify_agile_short_4_minutes.mp4" type="video/mp4">
-				 Your browser does not support the video tag.
-        </video>
-        <video width="600" height="400" controls>
-          <source src="Agile way of working at ING Belgium.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-       </video>
-		  </div>
-		</div>
-	</div>
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#Docker">
-          Docker
-        </a>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#safeAgile">
+            SAFE Agile
+          </a>
+        </div>
+        <div id="safeAgile" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <video width="600" height="400" controls>
+              <source src="SAFe 4.0 in 5 minutes.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
       </div>
-      <div id="Docker" class="collapse" data-parent="#accordion">
-        <div class="card-body">
-          	<video width="600" height="400" controls>
-       	  		<source src="What is Docker.mp4" type="video/mp4">
-       			Your browser does not support the video tag.
-      	  	</video>
-	  		<video width="600" height="400" controls>
-       	  		<source src="What is Docker_ In 3 minutes.mp4" type="video/mp4">
-       			Your browser does not support the video tag.
-      	  	</video>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#SpotifyAgile">
+            Spotify Agile
+          </a>
+        </div>
+        <div id="SpotifyAgile" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <video width="600" height="400" controls>
+              <source src="spotify_agile_short_4_minutes.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video width="600" height="400" controls>
+              <source src="Agile way of working at ING Belgium.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#Docker">
+            Docker
+          </a>
+        </div>
+        <div id="Docker" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <video width="600" height="400" controls>
+              <source src="What is Docker.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video width="600" height="400" controls>
+              <source src="What is Docker_ In 3 minutes.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#pcf">
+            PCF
+          </a>
+        </div>
+        <div id="pcf" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <h2>Cloud Foundry Introduction</h2>
+            <video width="600" height="400" controls>
+              <source src="Cloud Foundry Introduction.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>1. Pivotal Cloud Foundry Developer: Organization</h2>
+            <video width="600" height="400" controls>
+              <source src="1 Pivotal Cloud Foundry Developer-Organization.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>2. Pivotal Cloud Foundry Developer: Spaces</h2>
+            <video width="600" height="400" controls title="Pivotal Cloud Foundry Developer: Spaces">
+              <source src="2 Pivotal Cloud Foundry Developer-Spaces.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>3. Pivotal Cloud Foundry Developer: Droplet</h2>
+            <video width="600" height="400" controls>
+              <source src="3 Pivotal Cloud Foundry Developer-Droplet.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>4. Pivotal Cloud Foundry Developer: Container</h2>
+            <video width="600" height="400" controls>
+              <source src="4 Pivotal Cloud Foundry Developer-Container.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>5. Pivotal Cloud Foundry Developer: Endpoint</h2>
+            <video width="600" height="400" controls>
+              <source src="5 Pivotal Cloud Foundry Developer-Endpoint.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>6. Pivotal Cloud Foundry Developer: Manifest</h2>
+            <video width="600" height="400" controls>
+              <source src="6 Pivotal Cloud Foundry Developer-Manifest.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>7. Pivotal Cloud Foundry Developer: Routes</h2>
+            <video width="600" height="400" controls>
+              <source src="7 Pivotal Cloud Foundry Developer-Routes.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>8. Pivotal Cloud Foundry Developer: Routing</h2>
+            <video width="600" height="400" controls>
+              <source src="8 Pivotal Cloud Foundry Developer-Routing.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>9. Pivotal Cloud Foundry Developer: Manual Scaling</h2>
+            <video width="600" height="400" controls>
+              <source src="9 Pivotal Cloud Foundry Developer-Manual Scaling.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>10. Pivotal Cloud Foundry Developer: Fundamental cf Commands</h2>
+            <video width="600" height="400" controls>
+              <source src="10 Pivotal Cloud Foundry Developer-Fundamental cf Commands.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>11. Pivotal Cloud Foundry Developer: Colocation in Cloud Foundry</h2>
+            <video width="600" height="400" controls>
+              <source src="11 Pivotal Cloud Foundry Developer-Colocation in Cloud Foundry.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<body>
-<html>
+
+  <body>
+    <html>
